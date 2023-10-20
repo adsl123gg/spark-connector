@@ -40,8 +40,8 @@ object KinesisCassandra {
 
   val batchInterval = Seconds(5)
 
-  val ak = "AKIAVZOGG3NVAOFXIKNR"
-  val sk = "BXKJebnyglGYN5RWPDkiHpH4ubvQjltniUtj7tei"
+  val ak = "ak"
+  val sk = "sk"
   val sparkAwsCredentials = SparkAWSCredentials.builder.basicCredentials(ak, sk).build()
   val basicAWSCredentials = new BasicAWSCredentials(ak, sk)
   val credentials = new AWSStaticCredentialsProvider(basicAWSCredentials)
