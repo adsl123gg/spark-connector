@@ -1,0 +1,49 @@
+dependencies {
+    implementation 'com.amazonaws:aws-java-sdk-kinesis:1.11.271'
+    implementation("com.amazonaws:amazon-kinesis-client:1.8.10") {
+        exclude group: 'com.google.guava', module: 'guava'
+    }
+
+    implementation "com.datastax.spark:spark-cassandra-connector_2.11:2.4.3"
+
+    implementation ("org.apache.spark:spark-core_2.11:${project.sparkVersion}") {
+        exclude group: 'org.apache.hadoop'
+    }
+    implementation "org.apache.spark:spark-streaming_2.11:${project.sparkVersion}"
+    implementation "org.apache.spark:spark-streaming-kinesis-asl_2.11:${project.sparkVersion}"
+    implementation ("org.apache.spark:spark-sql_2.11:${project.sparkVersion}") {
+        exclude group: 'org.codehaus.janino', module: 'janino'
+        exclude group: 'org.codehaus.janino', module: 'commons-compiler'
+    }
+
+    implementation "net.liftweb:lift-json_2.11:3.4.0"
+    implementation "com.google.guava:guava:24.1.1-jre"
+
+//    spark cluster run
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.11.4'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.4'
+
+//    local run
+//    implementation 'com.fasterxml.jackson.core:jackson-core:2.13.3'
+//    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
+
+}
+
+jar {
+    zip64 = true
+    dependsOn configurations.runtime
+
+    manifest {
+        attributes "Main-Class": "com.eason.spark.connector.KinesisSparkCheckpoint"
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+compileScala.targetCompatibility = 1.8
+//ScalaCompileOptions.metaClass.useAnt = false

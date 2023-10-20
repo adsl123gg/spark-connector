@@ -1,0 +1,22 @@
+allprojects {
+    apply plugin:'java'
+    apply plugin:'scala'
+
+    repositories {
+        maven { url 'https://build-artifactory.eng.vmware.com/artifactory/maven/' }
+        maven { url 'https://build-squid.eng.vmware.com/nexus/content/groups/repo' }
+        mavenLocal()
+        mavenCentral()
+    }
+
+    project.ext {
+        sparkVersion = '2.4.5'
+        scalaVersion = '2.11.12'
+    }
+    dependencies {
+        implementation('org.scala-lang:scala-library:2.11.12') {
+            exclude group: "org.apache.hadoop:hadoop-client"
+        }
+    }
+}
+

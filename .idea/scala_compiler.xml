@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Gradle 1" modules="spark-connector.scal.main,spark-connector.scal.test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-target:jvm-11" />
+      </parameters>
+    </profile>
+    <profile name="Gradle 2" modules="spark-connector.main,spark-connector.scalaLearn.main,spark-connector.scalaLearn.test,spark-connector.spark.main,spark-connector.spark.test,spark-connector.sparkLearn.main,spark-connector.sparkLearn.test,spark-connector.sparkStream.main,spark-connector.sparkStream.test,spark-connector.test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
+  </component>
+</project>

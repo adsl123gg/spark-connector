@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-connector.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-connector.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-connector.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaLearn/spark-connector.scalaLearn.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaLearn/spark-connector.scalaLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaLearn/spark-connector.scalaLearn.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaLearn/spark-connector.scalaLearn.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaLearn/spark-connector.scalaLearn.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaLearn/spark-connector.scalaLearn.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark/spark-connector.spark.iml" filepath="$PROJECT_DIR$/.idea/modules/spark/spark-connector.spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark/spark-connector.spark.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spark/spark-connector.spark.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark/spark-connector.spark.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spark/spark-connector.spark.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkStream/spark-connector.sparkStream.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkStream/spark-connector.sparkStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkStream/spark-connector.sparkStream.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkStream/spark-connector.sparkStream.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkStream/spark-connector.sparkStream.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkStream/spark-connector.sparkStream.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-connector.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-connector.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vmware.workspace.spark-connector.iml" filepath="$PROJECT_DIR$/.idea/modules/vmware.workspace.spark-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vmware.workspace.spark-connector.main.iml" filepath="$PROJECT_DIR$/.idea/modules/vmware.workspace.spark-connector.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vmware.workspace.spark-connector.test.iml" filepath="$PROJECT_DIR$/.idea/modules/vmware.workspace.spark-connector.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workspace.spark-connector.iml" filepath="$PROJECT_DIR$/.idea/modules/workspace.spark-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workspace.spark-connector.main.iml" filepath="$PROJECT_DIR$/.idea/modules/workspace.spark-connector.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark/workspace.spark-connector.spark.iml" filepath="$PROJECT_DIR$/.idea/modules/spark/workspace.spark-connector.spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark/workspace.spark-connector.spark.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spark/workspace.spark-connector.spark.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark/workspace.spark-connector.spark.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spark/workspace.spark-connector.spark.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workspace.spark-connector.test.iml" filepath="$PROJECT_DIR$/.idea/modules/workspace.spark-connector.test.iml" />
+    </modules>
+  </component>
+</project>

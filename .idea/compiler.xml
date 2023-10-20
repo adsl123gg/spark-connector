@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="spark-connector.main" target="11" />
+      <module name="spark-connector.scal.main" target="11" />
+      <module name="spark-connector.scal.test" target="11" />
+      <module name="spark-connector.spark.main" target="11" />
+      <module name="spark-connector.spark.test" target="11" />
+      <module name="spark-connector.test" target="11" />
+      <module name="vmware.workspace.spark-connector.spark.main" target="11" />
+      <module name="vmware.workspace.spark-connector.spark.test" target="11" />
+      <module name="workspace.spark-connector.main" target="11" />
+      <module name="workspace.spark-connector.spark.main" target="11" />
+      <module name="workspace.spark-connector.spark.test" target="11" />
+      <module name="workspace.spark-connector.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
